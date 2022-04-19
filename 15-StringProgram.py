@@ -3,7 +3,22 @@
 # 3. WAP to count lowercase, uppercase, numeric characters in string.
 # 4. WAP a program to print len of a string without using len function.
 
+# Program 1
+print("Program 1: ")
+strTwo = "SuShAnT"
+for j in strTwo:
+  if(j == j.lower()):
+    print(j, end='')
+
+for k in strTwo:
+  if(k == k.upper()):
+    print(k, end='')
+print('\n')
+
+
+
 # Program 2: - 
+print("Program 2: ")
 str = "Sushant"
 vowelsCount = 0
 consonentsCount = 0
@@ -34,3 +49,33 @@ for i in str:
 print("Total Vowels:", vowelsCount)
 consonentsCount = strLen - vowelsCount
 print("Total Consonents:", consonentsCount)
+print('\n')
+
+# Program 3
+
+print("Program 3: ")
+
+lowerCase = 0
+upperCase = 0
+digits = 0
+strThree = "SushantDhiman"
+
+for i in strThree:
+  if(i == i.lower()):
+    lowerCase = lowerCase + 1
+  if(i == i.upper()):
+    upperCase = upperCase + 1
+
+print("Lower Case Characters:",lowerCase)
+print("Upper Case Characters:", upperCase)
+print('\n')
+
+# Program 4:
+print("Program 4:")
+
+strLength = 0
+strFour = "Sushant"
+for x in strFour:
+  strLength = strLength + 1
+
+print("Length of String:", strLength)
