@@ -5,7 +5,7 @@
 
 # Program 1
 print("Program 1: ")
-strTwo = "SuShAnT"
+strTwo = "SushanT"
 for j in strTwo:
   if(j == j.lower()):
     print(j, end='')
@@ -14,7 +14,6 @@ for k in strTwo:
   if(k == k.upper()):
     print(k, end='')
 print('\n')
-
 
 
 # Program 2: - 
@@ -57,7 +56,6 @@ print("Program 3: ")
 
 lowerCase = 0
 upperCase = 0
-digits = 0
 strThree = "SushantDhiman"
 
 for i in strThree:
