@@ -56,16 +56,20 @@ print("Program 3: ")
 
 lowerCase = 0
 upperCase = 0
-strThree = "SushantDhiman"
+digitCount = 0
+strThree = "Sushant10Dhiman"
 
 for i in strThree:
   if(i == i.lower()):
     lowerCase = lowerCase + 1
   if(i == i.upper()):
     upperCase = upperCase + 1
+  if i.isdigit():
+    digitCount = digitCount + 1
 
 print("Lower Case Characters:",lowerCase)
 print("Upper Case Characters:", upperCase)
+print("Digits:",digitCount)
 print('\n')
 
 # Program 4:
