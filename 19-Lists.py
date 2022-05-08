@@ -24,13 +24,3 @@ listOne = [x for x in listOne if x % 2 == 0]
 #     return average
 # print(calculateAverage(listThree))
 
-# Program 5: Print prime number from list
-list = [1, 2, 3, 4, 5, 6, 7, 8, 13, 17, 18, 20]
-def checkPrime(num):
-    for i in range(2, num):
-        if num % i == 0:
-            return False
-        else:
-            return True
-primeNumbers = [j for j in list if checkPrime(j)]
-print(primeNumbers)
