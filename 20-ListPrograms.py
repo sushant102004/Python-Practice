@@ -30,14 +30,11 @@ integersList = pickInteger(listThree)
 # Program 4: - Print Prime Numbers
 listFour = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 def checkPrime(element):
-    divideCount = 0
     for i in range(2, element // 2):
         if element % i == 0:
-            divideCount = divideCount + 1
-    if divideCount == 0:
-        return True
-    else:
-        return False
+            return False
+        else:
+            return True
 
 primeNumbers = [z for z in listFour if checkPrime(z)]
 print(primeNumbers)
