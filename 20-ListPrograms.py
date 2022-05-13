@@ -37,4 +37,38 @@ def checkPrime(element):
             return True
 
 primeNumbers = [z for z in listFour if checkPrime(z)]
-print(primeNumbers)
+# print(primeNumbers)
+
+# Program 5: - Remove Negatives from list
+listFive = [-1, 2, 6, -9, 5]
+def removeNegative(list):
+    newList = []
+    for i in range(len(list)):
+        if list[i] > 0:
+            newList.append(list[i])
+    return newList
+# print(removeNegative(listFive))
+
+# Program 6: - Check occurence of number
+listSix = [1, 2, 1, 6, 1, 8]
+totalOccurence = 0
+
+def checkOccurence(list, num):
+    global totalOccurence
+    for i in range(len(list)):
+        if list[i] == num:
+            totalOccurence = totalOccurence + 1
+    return totalOccurence
+# print(checkOccurence(listSix, 1))
+
+# Program 7: - Remove first and last element
+listSeven = [10, 20, 30, 40]
+def removeFirstLast(list):
+    newList = []
+    for i in range(len(list)):
+        if i == 0 or i == len(list) - 1:
+            continue
+        else:
+            newList.append(list[i])
+    return newList
+# print(removeFirstLast(listSeven))
