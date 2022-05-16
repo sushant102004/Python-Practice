@@ -8,6 +8,14 @@ def checkElement(num):
 evenNumbers = [x for x in list if checkElement(x)]
 # print(evenNumbers)
 
+# Another Approach: -
+def checkElementX(list):
+    for i in range(len(list)):
+        if list[i] % 2 == 0:
+            print(list[i])
+# checkElementX(list)
+
+
 # Program 2: - Convert Celcius to Fahrenheit.
 listTwo = [10, 50, 40, 38, 36]
 def cToF(list):
@@ -28,16 +36,16 @@ integersList = pickInteger(listThree)
 # print(integersList)
 
 # Program 4: - Print Prime Numbers
-listFour = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-def checkPrime(element):
-    isPrime = True
-    for i in range(2, element):
-        if element % i == 0:
-            isPrime = False
-            return isPrime
-    return isPrime
-listFour = [z for z in listFour if checkPrime(listFour) == True]
-print(listFour)
+# listFour = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# def checkPrime(element):
+#     isPrime = True
+#     for i in range(2, element):
+#         if element % i == 0:
+#             isPrime = False
+#             return isPrime
+#     return isPrime
+# listFour = [z for z in listFour if checkPrime(listFour) == True]
+# print(listFour)
             
 
 # Program 5: - Remove Negatives from list
