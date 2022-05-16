@@ -1,5 +1,8 @@
 # List Comprehension
 # list = [10, 20, 30, 40]
+# for i in list:
+#     print(i)
+# print(list[0])
 # list = [x + 10 for x in list]
 
 
@@ -23,4 +26,3 @@ listOne = [x for x in listOne if x % 2 == 0]
 #     average = temp // len(list)
 #     return average
 # print(calculateAverage(listThree))
-

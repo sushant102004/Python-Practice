@@ -42,8 +42,8 @@ def funcThree():
     global a
     a = 20
     print("Value of A:",a)
-# funcThree()
 # print("Value of A:",a)
+# funcThree()   
 
 def compute(num):
     print("Number:",num)

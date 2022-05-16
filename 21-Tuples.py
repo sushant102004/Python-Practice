@@ -42,3 +42,9 @@ args = [('India', '₹'), ('USA', '$')]
 Country, Currency = zip(*args)
 # print(Country)
 # print(Currency)
+
+# Temprary Work
+
+tupleOne = ('ABC', 'DEF')
+listOne = list(tupleOne)
+print(listOne)

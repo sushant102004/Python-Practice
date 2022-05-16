@@ -30,14 +30,15 @@ integersList = pickInteger(listThree)
 # Program 4: - Print Prime Numbers
 listFour = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 def checkPrime(element):
-    for i in range(2, element // 2):
+    isPrime = True
+    for i in range(2, element):
         if element % i == 0:
-            return False
-        else:
-            return True
-
-primeNumbers = [z for z in listFour if checkPrime(z)]
-# print(primeNumbers)
+            isPrime = False
+            return isPrime
+    return isPrime
+listFour = [z for z in listFour if checkPrime(listFour) == True]
+print(listFour)
+            
 
 # Program 5: - Remove Negatives from list
 listFive = [-1, 2, 6, -9, 5]

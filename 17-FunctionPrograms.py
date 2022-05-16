@@ -6,12 +6,13 @@ def checkOccurence(word, letter):
             global count
             count = count + 1
 checkOccurence("sushant", "s")
-print("Total Occurence: ", count)
+# print("Total Occurence: ", count)
 
 # Program 2
 def removeLetter(word, letter):
     word = word.replace(letter, "")
     return word
+# print(removeLetter('Sushant', 'S'))
 
 # Program 3
 def capitalizeVowel(word):
